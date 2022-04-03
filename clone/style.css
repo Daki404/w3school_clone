@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    font-family: 'Gugi', cursive;
+    color: #eeeeee;
+}
+
+ul{
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: #37474f;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: #E6D5B8;
+    color: #1B1A17;
+    display: flex;
+    vertical-align: middle;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 8px 12px;
+}
+
+.header_btn{
+    margin-left: auto;
+}
+
+
+.header_list li:hover{
+    background-color: #c56000;
+}
+
+.header_btn li:hover{
+    border-radius: 10px;
+    background-color: #c56000;
+}
+
+.header_icon{
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    padding: 18px 12px;
+}
+
+.header_icon i{
+    color:#ff6f00;
+    padding-right: 5px;
+}
+
+.header_list ul, .header_btn ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.header_btn li{
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header_list li, .header_btn li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.new{
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 10px;
+    padding: 3px 6px;
+    margin-left: 5px;
+}
+
+.web_btn{
+    background-color: #c94f7c;
+    border-radius: 10px;
+}
+
+.login_btn{
+    background-color: #ff6f00;
+    border-radius: 10px;
+    margin-right: 12px;
+}
