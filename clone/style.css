@@ -2,15 +2,67 @@ body{
     margin: 0px;
     font-family: 'Gugi', cursive;
     color: #eeeeee;
+    background-color: #E6D5B8;
 }
 
 ul{
     margin: 0px;
+    padding-left: 0px;
 }
 
 li{
     list-style: none;
 }
+
+/*side-bar 부분*/
+aside{
+    width: 220px;
+    height: 1100px;
+    overflow-y: scroll;
+}
+
+.main{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+}
+
+/*nav 부분*/
+
+nav{
+    background-color: #F0A500;
+    color: #1B1A17;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+nav li{
+    padding: 8px 12px;
+    
+}
+
+nav i{
+    padding: 8px 12px;
+}
+
+.nav_home ul, .nav_list ul, .nav_help ul{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.nav_help{
+    margin-left: auto;
+}
+
+.nav_list{
+    word-break: break-word;
+    overflow: hidden;
+}
+
+/*header 부분*/
 
 header{
     background-color: #37474f;
@@ -18,25 +70,9 @@ header{
     justify-content: space-between;
 }
 
-nav{
-    background-color: #E6D5B8;
-    color: #1B1A17;
-    display: flex;
-    vertical-align: middle;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav li{
-    padding: 8px 12px;
-}
-
 .header_btn{
     margin-left: auto;
 }
-
 
 .header_list li:hover{
     background-color: #c56000;
