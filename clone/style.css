@@ -13,20 +13,99 @@ ul{
 li{
     list-style: none;
 }
+/*article 부분*/
+section{
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+    flex-grow: 7;
+}
+
+.padding_left{
+    padding-left: 20px;
+}
+
+.btn{
+    display: flex;
+    background-color: #ff6f00;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.move_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv_btn{
+    display: flex;
+    background-color:#ff6f00;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.vid_btn{
+    display: flex;
+    background-color: #37474f;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.ad{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffcc80;
+    padding-left: 20px;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.example{
+    margin-top: 16px;
+}
+
+
+
 
 /*side-bar 부분*/
 aside{
-    width: 220px;
-    height: 1100px;
+    height: 1000px;
+    flex-grow: 0.5;
+    overflow-x: hidden;
     overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
+.bside{
+    background-color: #c94f7c;
+    flex-grow: 3;
+}
+
+/*메인 부분*/
 .main{
     padding-left: 10px;
     display: flex;
     justify-content: flex-start;
     color: #000;
+    overflow: hidden;
 }
+
 
 /*nav 부분*/
 
@@ -36,6 +115,9 @@ nav{
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav li{
@@ -58,6 +140,7 @@ nav i{
 }
 
 .nav_list{
+    top: 0;
     word-break: break-word;
     overflow: hidden;
 }
